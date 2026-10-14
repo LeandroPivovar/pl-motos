@@ -290,3 +290,4 @@ section { padding: clamp(60px, 9vw, 104px) 0; }
 @media (max-width: 560px) {
   .video-grid { grid-template-columns: repeat(3, 78%); }
 }
+.video-more { margin: 28px 0 0; text-align: center; }

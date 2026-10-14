@@ -32,6 +32,7 @@ A seção "Vídeos" mostra 3 vídeos reais da oficina (`preload="none"`, só car
 | Slogan | "Sua moto em boas mãos!" (a arte escreve "Seu moto"; corrigi para "Sua moto") |
 | Descrição | "serviços rápidos e no preço justo com ótima qualidade!" |
 | WhatsApp / telefone | (21) 96020-9682 (`wa.me/5521960209682`, constante `WA` no `main.js`) |
+| Instagram | [@pldastart](https://www.instagram.com/pldastart/) (contato, localização, rodapé e botão "Mais vídeos" -> Reels) |
 | Endereço | Rua Paulo de Oliveira Pinto, 198, Vila Emil, Mesquita (RJ) |
 | Horário | 09:00 às 18:00 (o print mostra só o dia atual) |
 | Serviços (arte) | Motores (parcial / completo), caixa de marcha, chassi, caixa de direção, carenagem |
