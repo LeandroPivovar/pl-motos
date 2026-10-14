@@ -279,15 +279,15 @@ section { padding: clamp(60px, 9vw, 104px) 0; }
 
 /* Vídeos da oficina (verticais, gravados no celular) */
 .videos { border-top: 1px solid var(--line); }
-.video-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 320px)); justify-content: center; gap: 18px; }
-.video-card { margin: 0; background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.video-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 18px; }
+.video-card { flex: 0 1 300px; margin: 0; background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
 .video-card video { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; object-fit: cover; background: #000; }
 .video-card figcaption { padding: 14px 16px 16px; color: var(--muted); font-size: .95rem; border-top: 3px solid var(--red); }
 @media (max-width: 900px) {
-  .video-grid { grid-template-columns: repeat(3, minmax(220px, 1fr)); overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; }
-  .video-card { scroll-snap-align: start; }
+  .video-grid { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; }
+  .video-card { flex: 0 0 240px; scroll-snap-align: start; }
 }
 @media (max-width: 560px) {
-  .video-grid { grid-template-columns: repeat(3, 78%); }
+  .video-card { flex-basis: 78%; }
 }
 .video-more { margin: 28px 0 0; text-align: center; }

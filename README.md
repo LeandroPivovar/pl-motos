@@ -22,7 +22,7 @@ assets/
 ```
 
 Sem fotos nem logo em arquivo: o hero tem uma engrenagem vermelha (CSS) com o ícone de moto.
-A seção "Vídeos" mostra 3 vídeos reais da oficina (`preload="none"`, só carregam ao tocar). Legendas escritas por mim a partir do que aparece no vídeo; ajustar se o cliente quiser.
+A seção "Vídeos" mostra 5 vídeos reais da oficina (`preload="none"`, só carregam ao tocar). Legendas escritas por mim a partir do que aparece no vídeo; ajustar se o cliente quiser.
 
 ## Dados usados (fontes: perfil do WhatsApp Business e post do Facebook "Oficina PL Motos")
 
@@ -36,7 +36,7 @@ A seção "Vídeos" mostra 3 vídeos reais da oficina (`preload="none"`, só car
 | Endereço | Rua Paulo de Oliveira Pinto, 198, Vila Emil, Mesquita (RJ) |
 | Horário | 09:00 às 18:00 (o print mostra só o dia atual) |
 | Serviços (arte) | Motores (parcial / completo), caixa de marcha, chassi, caixa de direção, carenagem |
-| Serviços (cliente, 14/10/2026) | Borracharia, pintura e solda em peças de moto |
+| Serviços (cliente, 14/10/2026) | Borracharia, pintura e solda em peças de moto; troca de pastilha, troca de relação, troca de embreagem e caixa de marcha quebrada |
 
 ## Confirmar com o cliente
 
