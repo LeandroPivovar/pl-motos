@@ -276,3 +276,17 @@ section { padding: clamp(60px, 9vw, 104px) 0; }
   .gear { right: -22%; top: 34%; width: 80vw; opacity: .35; }
   .local-grid { grid-template-columns: 1fr; }
 }
+
+/* Vídeos da oficina (verticais, gravados no celular) */
+.videos { border-top: 1px solid var(--line); }
+.video-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 320px)); justify-content: center; gap: 18px; }
+.video-card { margin: 0; background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.video-card video { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; object-fit: cover; background: #000; }
+.video-card figcaption { padding: 14px 16px 16px; color: var(--muted); font-size: .95rem; border-top: 3px solid var(--red); }
+@media (max-width: 900px) {
+  .video-grid { grid-template-columns: repeat(3, minmax(220px, 1fr)); overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; }
+  .video-card { scroll-snap-align: start; }
+}
+@media (max-width: 560px) {
+  .video-grid { grid-template-columns: repeat(3, 78%); }
+}

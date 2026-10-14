@@ -17,9 +17,12 @@ assets/
   js/main.js              menu mobile, formulário -> WhatsApp, FAQ, reveal ao rolar, ano do rodapé
   fonts/phosphor/         ícones Phosphor (woff2 local, licença MIT)
   img/favicon.svg
+  img/pl-motos-N-capa.jpg  capa (poster) de cada vídeo, tirada de um quadro do próprio vídeo
+  video/pl-motos-N.mp4     vídeos da oficina enviados pelo cliente (WhatsApp, verticais)
 ```
 
 Sem fotos nem logo em arquivo: o hero tem uma engrenagem vermelha (CSS) com o ícone de moto.
+A seção "Vídeos" mostra 3 vídeos reais da oficina (`preload="none"`, só carregam ao tocar). Legendas escritas por mim a partir do que aparece no vídeo; ajustar se o cliente quiser.
 
 ## Dados usados (fontes: perfil do WhatsApp Business e post do Facebook "Oficina PL Motos")
 
@@ -32,6 +35,7 @@ Sem fotos nem logo em arquivo: o hero tem uma engrenagem vermelha (CSS) com o í
 | Endereço | Rua Paulo de Oliveira Pinto, 198, Vila Emil, Mesquita (RJ) |
 | Horário | 09:00 às 18:00 (o print mostra só o dia atual) |
 | Serviços (arte) | Motores (parcial / completo), caixa de marcha, chassi, caixa de direção, carenagem |
+| Serviços (cliente, 14/10/2026) | Borracharia, pintura e solda em peças de moto |
 
 ## Confirmar com o cliente
 
